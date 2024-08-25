@@ -1,0 +1,14 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilites; */
+
+
+.active{
+    color:black;
+    
+}
+
+.inActive {
+    color:blue;
+    margin: 10px;
+}
