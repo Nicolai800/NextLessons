@@ -18,6 +18,7 @@ export default function HeaderComponent() {
         <Link href="/blog">Blog</Link>
         <Link href="/order-product">Order</Link>
         <Link href="/login">Login</Link>
+        <Link href="/complex-dashboard">Dashboard</Link>
       </div>
     </div>
   );

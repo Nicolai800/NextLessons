@@ -6,5 +6,10 @@ export default function ErrorBoundary({
   error: Error;
   reset: () => void;
 }) {
-  return <div>{error.message}<button onClick={reset}>Try again</button></div>;
+  return (
+    <div>
+      {error.message}
+      <button onClick={reset}>Try again</button>
+    </div>
+  );
 }
