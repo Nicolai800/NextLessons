@@ -21,6 +21,7 @@ export default function HeaderComponent() {
         <Link href="/complex-dashboard">Dashboard</Link>
         <Link href="/f1">Folder 1</Link>
         <Link href="/photo-feed">Photo feed</Link>
+        <Link href="/comments">Comments</Link>
       </div>
     </div>
   );
