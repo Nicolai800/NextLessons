@@ -18,10 +18,11 @@ export default function HeaderComponent() {
         <Link href="/blog">Blog</Link>
         <Link href="/order-product">Order</Link>
         <Link href="/login">Login</Link>
-        <Link href="/complex-dashboard">Dashboard</Link>
+        <Link href="/complex-dashboard">Complex Dashboard</Link>
         <Link href="/f1">Folder 1</Link>
         <Link href="/photo-feed">Photo feed</Link>
         <Link href="/comments">Comments</Link>
+        <Link href="/dashboard">Dashboard</Link>
       </div>
     </div>
   );
