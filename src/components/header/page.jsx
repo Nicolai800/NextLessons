@@ -23,6 +23,7 @@ export default function HeaderComponent() {
         <Link href="/photo-feed">Photo feed</Link>
         <Link href="/comments">Comments</Link>
         <Link href="/dashboard">Dashboard</Link>
+        <Link href="/product-detail">Product-detail</Link>
       </div>
     </div>
   );
