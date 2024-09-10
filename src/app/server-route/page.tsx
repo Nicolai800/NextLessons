@@ -1,5 +1,5 @@
-import "server-only";
 
+import ImageSlider from "@/components/imageSlider";
 import { serverSideFunction } from "@/utils/server-utils";
 
 export default function ServerRoute() {
@@ -10,6 +10,7 @@ export default function ServerRoute() {
     <>
       <h1>Server Route</h1>
       <p>{result}</p>
+      <ImageSlider/>
     </>
   );
 }
