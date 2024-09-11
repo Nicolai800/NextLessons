@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import FooterComponent from "../components/footer/page";
 import HeaderComponent from "../components/header/page";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: {
@@ -18,12 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <HeaderComponent />
+      <ThemeProvider>
+        <body>
+          <HeaderComponent />
 
-        {children}
-        <FooterComponent />
-      </body>
+          {children}
+          <FooterComponent />
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
