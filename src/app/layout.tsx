@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <ThemeProvider>
         <body>
-          <HeaderComponent />
+          <HeaderComponent /> 
 
           {children}
           <FooterComponent />
