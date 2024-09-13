@@ -8,7 +8,9 @@ type Product = {
 // import Link from "next/link";
 
 export default async function ProductPage() {
-  const response = await fetch("http://localhost:3001/products");
+  const response = await fetch("http://localhost:3001/products", {
+    cache: "no-store",
+  });
   const products = await response.json();
   return (
     <ul className="space-y-4 p-4">
